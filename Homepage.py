@@ -10,6 +10,8 @@ st.title("Fashion Classifier using the MNIST Dataset")
 
 #Including a header 
 st.header("Upload the image of your clothing item!")
+st.markdown("It would be best if you go to my Github and download some images from the 'Images to Test' folder :)")
+
 
 #Getting the user input
 file=st.file_uploader("", type=('jpeg','jpg','png'))
